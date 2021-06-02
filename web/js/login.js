@@ -34,7 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     loginForm.addEventListener("submit", e => {
         e.preventDefault();
-        window.location.pathname = "";
+        //寫判斷
+        window.location.pathname = "./web/home.html";
         // Perform your AJAX/Fetch login
 
         setFormMessage(loginForm, "error", "Invalid username/password combination");
