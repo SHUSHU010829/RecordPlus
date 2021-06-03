@@ -281,6 +281,12 @@ ul {
   .btn-white:hover {
     background-color: #fcfcfc; }
 
+.btn-gray {
+  background-color: #999999;
+  color: #fff; }
+  .btn-gray:hover {
+    background-color: #6e6e6e; }
+
 .btn-blue {
   background-color: #6DB1FF;
   color: #fff; }
