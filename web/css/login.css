@@ -23,24 +23,9 @@ body {
 	align-items: center;
 }
 
-.img {
-    size: 62.5%; }
-    @media only screen and (min-width: 112.5em) {
-      .img {
-        size: 62.5%; } }
-    @media only screen and (max-width: 37.5em) {
-      .img {
-        size: 50%;} }
-
 .img img{
 	width: 500px;
 }
-@media only screen and (min-width: 112.5em) {
-    .img img{
-      size: 62.5%; } }
-  @media only screen and (max-width: 37.5em) {
-    .img img{
-      size: 50%;} }
 
 .container {
     width: 400px;
@@ -51,18 +36,6 @@ body {
     border-radius: var(--border-radius);
     background: #ffffff;
 }
-
-@media only screen and (max-width: 52.25em) {
-    .container {
-        font-size: 75%; 
-        width: 300px;
-        max-width: 300px; } }
-
-    @media only screen and (max-width: 75em) {
-      .container {
-        font-size: 50%; 
-        width: 200px;
-        max-width: 200px;  } }
 
 .container,
 .form__input,
