@@ -17,6 +17,17 @@ body {
     background-size: cover;
 }
 
+@media only screen and (max-width: 52.25em) {
+    .container {
+        font-size: 75%; 
+        size: 50%; } }
+
+    @media only screen and (max-width: 75em) {
+      .container {
+        font-size: 50%; 
+        size: 50%;
+        justify-content: space-between; } }
+
 .img{
 	display: flex;
 	justify-content: flex-end;
