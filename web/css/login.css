@@ -1,7 +1,6 @@
-
 body {
-    --color-primary: #76A9FF;
-    --color-primary-dark: #3970cf;
+    --color-primary: #009579;
+    --color-primary-dark: #007f67;
     --color-secondary: #252c6a;
     --color-error: #cc3333;
     --color-success: #4bb544;
@@ -11,26 +10,16 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     font-size: 18px;
-    background-color:#ffffff;
+    background: url(./background.jpg);
     background-size: cover;
-}
-
-.img{
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-}
-
-.img img{
-	width: 500px;
 }
 
 .container {
     width: 400px;
     max-width: 400px;
-    margin: 10rem;
+    margin: 1rem;
     padding: 2rem;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     border-radius: var(--border-radius);
