@@ -10,7 +10,7 @@
     transition: 200ms ease-in-out;
     border-radius: 10px;
     z-index: 10;
-    width: 500px;
+
     max-width: 80%;
   }
   
@@ -155,8 +155,8 @@
   }
   
   .form button {
-      background-color: #8e44ad;
-      border: 2px solid #8e44ad;
+      background-color: #76A9FF;
+      border: 2px solid #76A9FF;
       border-radius: 4px;
       color: #fff;
       display: block;

@@ -84,8 +84,41 @@
       <div class="grid">
         <div class="painel">
             <div class="painel-header">
-                <h4 class="painel-title"> TEST PLUS</h4>
-                <a href="#" class="btn btn-green"> 新增＋ </a>
+                <h4 class="painel-title"> Tasks</h4>
+                <button data-modal-target="#modal"class="btn btn-green">新增 +</button>
+                <div class="modal" id="modal">
+                  <div class="container">
+                    <div class="header">
+                        <h2>新增一個任務</h2>
+                    </div>
+                    <form id="form" class="form">
+                        <div class="form-control">
+                            <label for="subject">科目</label>
+                            <input type="text" id="subject" />
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="subject">任務</label>
+                            <input type="quest"  id="quest" />
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="subject">截止日期</label>
+                            <input type="deadline"  id="deadline"/>
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                        <button>新增</button>
+                        <button data-close-button class="btn btn-gray">取消</button>
+                    </form>
+                  </div>
+                </div>
+              <div id="overlay"></div>
             </div>
             <div class="painel-body">
                 <div class="alert alert-success">幸運女神降靈!</div>
