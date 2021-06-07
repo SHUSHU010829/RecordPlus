@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" type="text/css" href="/css/home.css">
+    <link rel="stylesheet" type="text/css" href="/css/task.css">
+    <script defer src="/js/script.js"></script>
 </head>
 <body>
     <div id="search-results" style="display: none;">
@@ -124,7 +126,25 @@
           <div class="painel">
               <div class="painel-header">
                   <h4 class="painel-title">待完成任務</h4>
-                  <a href="#" class="btn btn-blue">一鍵領取</a>
+                  <button data-modal-target="#modal"class="btn btn-green">一鍵領取</button>
+                  <div class="modal" id="modal">
+                    <div class="container">
+                      <div class="header">
+                          <h2>提示</h2>
+                      </div>
+                      <form id="form" class="form">
+                          <div class="form-control">
+                              <label for="subject">成功領取任務點！</label>
+                          </div>
+                          <div class="form-control">
+                              <label for="subject">目前累積點數</label>
+                              <span>52點</span>
+                          </div>
+                          <button data-close-button class="btn btn-gray">確定</button>
+                      </form>
+                    </div>
+                  </div>
+                <div id="overlay"></div>
               </div>
               <div class="painel-body">
                   <div class="alert alert-success">一天一任務，老師遠離你！</div>
