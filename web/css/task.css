@@ -156,7 +156,6 @@
   
   .form button {
       background-color: #76A9FF;
-      border: 2px solid #76A9FF;
       border-radius: 4px;
       color: #fff;
       display: block;
@@ -166,14 +165,6 @@
       margin-top: 20px;
       width: 100%;
   }
-  
-  
-  
-  
-  
-  
-  
-  
   
   /* SOCIAL PANEL CSS */
   .social-panel-container {
