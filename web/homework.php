@@ -36,14 +36,14 @@
         </div>
     </nav>
    
-   <aside class="sidenav hidden-sm hidden-md" id="nav">
+    <aside class="sidenav hidden-sm hidden-md" id="nav">
        <div class="list">
-        <a href="/home.php"><i class="fa fa-home"></i> HOME</a>
-        <a href="#" class="active"><i class="fa fa-book"></i> HOMEWORK +</a>
-        <a href="/testplus.php"><i class="fa fa-check"></i> TEST +</a>
-        <a href="/allpasstool.php"><i class="fa fa-award"></i> ALL PASS TOOL</a>
-        <a href="/point.php"><i class="fa fa-cookie-bite"></i> POINT PLUS</a>
-       </div>
+        <a href="<?php echo 'home.php'; ?>"><i class="fa fa-home"></i> HOME</a>
+        <a href="<?php echo '#'; ?>"><i class="fa fa-book"></i> HOMEWORK +</a>
+        <a href="<?php echo 'testplus'; ?>"><i class="fa fa-check"></i> TEST +</a>
+        <a href="<?php echo 'allpasstool.php'; ?>"><i class="fa fa-award"></i> ALL PASS TOOL</a>
+        <a href="<?php echo 'point.php'; ?>"><i class="fa fa-cookie-bite"></i> POINT PLUS</a>
+        </div>
    </aside>
 
    <main class="content">
