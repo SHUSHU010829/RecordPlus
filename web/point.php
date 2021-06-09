@@ -22,7 +22,7 @@
     <nav class="topnav">
         <div class="logo">
             <a href="#" class="display-sm display-md" id="menu"><i class="fa fa-list-ol"></i></a>
-            <a href="index.php" class="hidden-sm"><h1>Record Plus</h1></a>
+            <a href="/index.php" class="hidden-sm"><h1>Record Plus</h1></a>
         </div>
         <div class="user-menu">
             <form action="#" method="post" class="hidden-sm">
@@ -31,17 +31,17 @@
             </form>
             <div>
                 <a href="#"><i class="fa fa-user"></i> Esther Yu </a>
-                <a href="login.php"><i class="fa fa-power-off"></i></a>
+                <a href="/login.php"><i class="fa fa-power-off"></i></a>
             </div>
         </div>
     </nav>
    
    <aside class="sidenav hidden-sm hidden-md" id="nav">
        <div class="list">
-           <a href="home.php"><i class="fa fa-home"></i> HOME</a>
-           <a href="homework.php"><i class="fa fa-book"></i> HOMEWORK +</a>
-           <a href="testplus.php"><i class="fa fa-check"></i> TEST +</a>
-           <a href="allpasstool.php"><i class="fa fa-award"></i> ALL PASS TOOL</a>
+           <a href="/home.php"><i class="fa fa-home"></i> HOME</a>
+           <a href="/homework.php"><i class="fa fa-book"></i> HOMEWORK +</a>
+           <a href="/testplus.php"><i class="fa fa-check"></i> TEST +</a>
+           <a href="/allpasstool.php"><i class="fa fa-award"></i> ALL PASS TOOL</a>
            <a href="#" class="active"><i class="fa fa-cookie-bite"></i> POINT PLUS</a>
        </div>
    </aside>

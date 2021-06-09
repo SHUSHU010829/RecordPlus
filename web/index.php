@@ -14,7 +14,7 @@
 			<img src="/pic/bg.svg">
 		</div>
 		<div class="login-content">
-			<form action="login.php">
+			<form action="/login.php">
 				<img src="/pic/avatar.svg">
 				<h2 class="title">RECORD PLUS.</h2>
             	<input type="submit" class="btn" value="Start">
