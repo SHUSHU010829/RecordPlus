@@ -5,6 +5,7 @@
     <title>Login / Sign Up Form</title>
     <link rel="shortcut icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="css/login.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 </head>
 <body>
@@ -23,7 +24,7 @@
             ?>
             <h1 class="form__title">Login</h1>
             <div class="form__message form__message--error"></div>
-            <<div class="form__input-group">
+            <div class="form__input-group">
                 <input type="text" name="ac" class="form__input" autofocus placeholder="Username or email">
                 <div class="form__input-error-message"></div>
             </div>

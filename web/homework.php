@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <link rel="stylesheet" type="text/css" href="css/task.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script defer src="/js/script.js"></script>
 </head>
 <body>
@@ -22,7 +23,7 @@
     <nav class="topnav">
         <div class="logo">
             <a href="#" class="display-sm display-md" id="menu"><i class="fa fa-list-ol"></i></a>
-            <a href="/index.php" class="hidden-sm"><h1>Record Plus</h1></a>
+            <a href="<?php echo 'login.php'; ?>" class="hidden-sm"><h1>Record Plus</h1></a>
         </div>
         <div class="user-menu">
             <form action="#" method="post" class="hidden-sm">
@@ -31,7 +32,7 @@
             </form>
             <div>
                 <a href="#"><i class="fa fa-user"></i> Esther Yu </a>
-                <a href="/login.php"><i class="fa fa-power-off"></i></a>
+                <a href="<?php echo 'login.php'; ?>"><i class="fa fa-power-off"></i></a>
             </div>
         </div>
     </nav>
@@ -40,7 +41,7 @@
        <div class="list">
         <a href="<?php echo 'home.php'; ?>"><i class="fa fa-home"></i> HOME</a>
         <a href="<?php echo '#'; ?>"><i class="fa fa-book"></i> HOMEWORK +</a>
-        <a href="<?php echo 'testplus'; ?>"><i class="fa fa-check"></i> TEST +</a>
+        <a href="<?php echo 'testplus.php'; ?>"><i class="fa fa-book"></i> TEST +</a>
         <a href="<?php echo 'allpasstool.php'; ?>"><i class="fa fa-award"></i> ALL PASS TOOL</a>
         <a href="<?php echo 'point.php'; ?>"><i class="fa fa-cookie-bite"></i> POINT PLUS</a>
         </div>
