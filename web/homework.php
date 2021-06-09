@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +11,8 @@
     <title>Record Plus.</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <link rel="stylesheet" type="text/css" href="/css/home.css">
-    <link rel="stylesheet" type="text/css" href="/css/task.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/task.css">
     <script defer src="/js/script.js"></script>
 </head>
 <body>
@@ -18,7 +22,7 @@
     <nav class="topnav">
         <div class="logo">
             <a href="#" class="display-sm display-md" id="menu"><i class="fa fa-list-ol"></i></a>
-            <a href="/index.html" class="hidden-sm"><h1>Record Plus</h1></a>
+            <a href="index.php" class="hidden-sm"><h1>Record Plus</h1></a>
         </div>
         <div class="user-menu">
             <form action="#" method="post" class="hidden-sm">
@@ -27,18 +31,18 @@
             </form>
             <div>
                 <a href="#"><i class="fa fa-user"></i> Esther Yu </a>
-                <a href="/login.html"><i class="fa fa-power-off"></i></a>
+                <a href="login.php"><i class="fa fa-power-off"></i></a>
             </div>
         </div>
     </nav>
    
    <aside class="sidenav hidden-sm hidden-md" id="nav">
        <div class="list">
-        <a href="/home.html"><i class="fa fa-home"></i> HOME</a>
+        <a href="home.php"><i class="fa fa-home"></i> HOME</a>
         <a href="#" class="active"><i class="fa fa-book"></i> HOMEWORK +</a>
-        <a href="/testplus.html"><i class="fa fa-check"></i> TEST +</a>
-        <a href="/allpasstool.html"><i class="fa fa-award"></i> ALL PASS TOOL</a>
-        <a href="/point.html"><i class="fa fa-cookie-bite"></i> POINT PLUS</a>
+        <a href="testplus.php"><i class="fa fa-check"></i> TEST +</a>
+        <a href="allpasstool.php"><i class="fa fa-award"></i> ALL PASS TOOL</a>
+        <a href="point.php"><i class="fa fa-cookie-bite"></i> POINT PLUS</a>
        </div>
    </aside>
 
